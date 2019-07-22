@@ -1,6 +1,6 @@
 #!/bin/bash
-for line in `cat url_list_un`
+for line in `cat url_list`
 do
 	echo $line
-	you-get $line
+	start you-get $line
 done
